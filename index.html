@@ -16,111 +16,92 @@
         <div class="example">
             <h1>Example form</h1>
             <div class="form">
-                <p>All: 12</p>
-                <p>Need: 7</p>
-                <p>Success: 7/7</p>
-                <p>Error: 4/7</p>
+                <p class="text1">All: 12</p>
+                <p class="text2">Need: 7</p>
+                <p class="text3">Success: 7/7</p>
+                <p class="text4">Error: 4/7</p>
             </div>
         </div>
     </center>
     <center>
-        <div class="body">
+        <form class="body signup">
+
             <div class="left">
 
-                <div class="input">
+                <label class="input required error">
                     <p class="p" id="name">Name</p>
-                    <div class="display">
-                    <input class="eror" type="text">
-                    <img src="./round-error-icon-16.jpg" alt="">
+                    <div class="about">
+                        <input class="eror" type="text" name="your name">
                     </div>
                     <p class="feel">Need to fill</p>
-                </div>
+                </label>
 
-                <div class="input">
+                <label class="input">
                     <p>Surname</p>
-                    <input class="noteror" type="text">
-                </div>
+                    <input class="noteror" type="text" name="Surname">
+                </label>
 
-                <div class="input">
+                <label class="input required error">
                     <p class="p" id="email adress">Email adress</p>
-                    <div class="display">
-                    <input class="eror" type="email">
-                    <img src="./round-error-icon-16.jpg" alt="">
-                    </div>
+                    <input class="eror" type="email" name="your email adress">
                     <p class="feel">Need to fill</p>
-                </div>
+                </label>
 
-                <div class="input">
+                <label class="input">
                     <p>Phone number</p>
-                    <input class="noteror" type="tel">
-                </div>
+                    <input class="noteror" type="tel" name="your Phone number">
+                </label>
 
-                <div class="input">
+                <label class="input">
                     <p>Your Mom’s name</p>
-                    <input class="noteror" type="text">
-                </div>
+                    <input class="noteror" type="text" name="Your Mom’s name">
+                </label>
 
-                <div class="input">
+                <label class="input">
                     <p>Your Pap’s name</p>
-                    <input class="noteror" type="text">
-                </div>
+                    <input class="noteror" type="text" name="Your Pap’s name">
+                </label>
 
             </div>
 
             <div class="right">
 
-                <div class="input">
+                <label class="input required error">
                     <p class="p" id="Age">Age</p>
-                    <div class="display">
-                    <input class="eror" type="number">
-                    <img src="./round-error-icon-16.jpg" alt="">
-                    </div>
+                    <input class="eror" type="number" name="your age">
                     <p class="feel">Need to fill</p>
-                </div>
+                </label>
 
-                <div class="input">
+                <label class="input required error">
                     <p class="p" id="About You">About You</p>
-                    <div class="display">
-                    <input class="eror" type="text">
-                    <img src="./round-error-icon-16.jpg" alt="">
-                    </div>
+                    <input class="eror" type="text" name="about you">
                     <p class="feel">Need to fill</p>
-                </div>
+                </label>
 
-                <div class="input">
+                <label class="input required error">
                     <p class="p" id="What is JavaScript?">What is JavaScript?</p>
-                    <div class="display">
-                    <input class="eror" type="text">
-                    <img src="./round-error-icon-16.jpg" alt="">
-                    </div>
+                    <input class="eror" type="text" name="your answer">
                     <p class="feel">Need to fill</p>
-                </div>
+                </label>
 
-                <div class="input">
+                <label class="input required error">
                     <p class="p" id="What is HTML?">What is HTML?</p>
-                    <div class="display">
-                    <input class="eror" type="text">
-                    <img src="./round-error-icon-16.jpg" alt="">
-                    </div>
+                    <input class="eror" type="text" name="your answer">
                     <p class="feel">Need to fill</p>
-                </div>
+                </label>
 
-                <div class="input">
+                <label class="input required error">
                     <p class="p" id="What is CSS?">What is CSS?</p>
-                    <div class="display">
-                    <input class="eror" type="text">
-                    <img src="./round-error-icon-16.jpg" alt="">
-                    </div>
+                    <input class="eror" type="text" name="your answer">
                     <p class="feel">Need to fill</p>
-                </div>
+                </label>
 
-                <div class="input">
+                <label class="input">
                     <p>Your favourite car</p>
-                    <input class="noteror" type="text">
-                </div>
-
+                    <input class="noteror" type="text" name="Your favourite car">
+                </label>
             </div>
-        </div>
+        </form>
     </center>
     <button>Save changes</button>
 

@@ -103,18 +103,68 @@ input {
     color: #EE0004;
 }
 
-img {
-    width: 16px;
-    height: 16px;
-    display: none;
-}
-
-.img {
-    width: 16px;
-    height: 16px;
-    display: block;
-}   
-.display{
+.display {
     display: flex;
     align-items: center;
+}
+
+
+
+.title,
+
+
+.required {
+    color: #4200FF;
+
+    input {
+        border-color: #4200FF;
+    }
+
+    ::placeholder {
+        color: #4200FF;
+    }
+}
+
+.error {
+    position: relative;
+    color: red;
+
+    input {
+        border-color: red;
+        color: red;
+    }
+
+    ::placeholder {
+        color: red;
+    }
+    .feel{
+        color: #EE0004;
+    }
+    .p{
+        color: #EE0004;
+    }
+}
+
+.error::after {
+    content: "!";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -30px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: calc(50% - 10px);   
+}
+.about{
+    align-items: center;
+}
+.err{
+    background-color: #EE0004;
 }
